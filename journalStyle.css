@@ -24,3 +24,29 @@
 details:hover{
     color: red;
 }
+
+.secondJournal {
+    background-color: #7BD187;
+    text-align: center;
+}
+
+#picture {
+    display: block;
+    padding: 30px 30px 30px 80px;
+    margin: auto;
+}
+
+#Day2List {
+    width: 1000px;
+    margin: 10px 10px 10px 750px;
+    align-self: center;
+}
+
+.listSpacing {
+    margin-left: 50px;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+}
