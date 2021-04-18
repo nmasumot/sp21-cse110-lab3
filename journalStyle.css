@@ -1,6 +1,14 @@
+@font-face {
+    font-family: 'Antonio', sans-serif;
+    src: url(https://fonts.google.com/specimen/Antonio)
+}
 /* First Journal Styling*/
-.firstJournal {
+section.firstJournal {
     background-color: lightsalmon;
+}
+
+.firstJournal h2 {
+    text-align: center;
 }
 
 *#Friday {
@@ -15,9 +23,10 @@
     border-width: 5px;
     border-color: black;
     border-style: dashed;
+    border-radius: 1cm;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 23px;
+    padding-left: 30px;
     padding-right: 10px;
 }
 
@@ -25,6 +34,15 @@ details:hover{
     color: red;
 }
 
+ol > li {
+    text-decoration: underline;
+}
+
+summary + p{
+    color: darkblue;
+}
+
+/*Second Journal Styling*/
 .secondJournal {
     background-color: #7BD187;
     text-align: center;
@@ -42,11 +60,30 @@ details:hover{
     align-self: center;
 }
 
-.listSpacing {
+.secondList{
     margin-left: 50px;
 }
 
 .flexbox {
     display: flex;
     flex-direction: row;
+}
+
+.thirdJournal{
+    background-color: hsl(274,100%,79%);
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Antonio', sans-serif;
+}
+
+#video {
+    position: relative;
+    top: 0cm; left: 0cm;
+    
+}
+
+h2 ~ p{
+    text-decoration:underline;
 }
